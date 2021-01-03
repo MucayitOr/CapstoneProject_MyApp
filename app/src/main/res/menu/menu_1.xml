@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mi_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="@string/home_nav"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/mi_expenses"
+        android:enabled="true"
+        android:icon="@drawable/euro_red"
+        android:title="@string/expense_nav"
+        android:visible="true" />
+
+
+    <item
+        android:id="@+id/mi_incomes"
+        android:enabled="true"
+        android:icon="@drawable/euro_green"
+        android:title="@string/income_nav"
+        android:visible="true" />
+</menu>
