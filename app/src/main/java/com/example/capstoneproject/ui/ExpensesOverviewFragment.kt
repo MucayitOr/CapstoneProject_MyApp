@@ -81,6 +81,7 @@ class ExpensesOverviewFragment : Fragment() {
      * This function helps to refresh the layout of the fragment.
      */
     private fun observeAddIncomeResult() {
+        //fill the text fields with the current text and title from the viewmodel
         viewModel.expenses.observe(viewLifecycleOwner, { incomes ->
             this.expenses.clear()
             this.expenses.addAll(incomes)
